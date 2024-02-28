@@ -44,6 +44,7 @@ public class standaloneTest2 {
 		ConfirmationPage confirmpage = new ConfirmationPage(driver);
 		String Actualresult = confirmpage.verifyConfirmationMsg();
 		Assert.assertTrue(Actualresult.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		System.out.print("fghjkl");
 		driver.close();
 	}
 }
